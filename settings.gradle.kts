@@ -21,5 +21,12 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "MyTickets"
-include(":app")
+include(
+    ":app",
+    ":core",
+    ":utils",
+    ":feature:main:data",
+    ":feature:main:api",
+    ":feature:main:presentation",
+)
  
